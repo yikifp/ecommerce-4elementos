@@ -1,0 +1,45 @@
+:root {
+    font-size: 62.5%;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    font-size: 1.6rem;
+  }
+
+  .app {
+    position: relative;
+    min-height: 100vh;
+  }
+  .content-wrapper {
+    width: 100%;
+    max-width: 1120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }

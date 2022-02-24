@@ -1,0 +1,22 @@
+header {
+  background: rgb(209, 255, 156);
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav {
+    display: flex;  
+    justify-content: flex-end;
+
+    .item {
+      font-size: 1.6rem;
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+  }
+}
