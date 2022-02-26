@@ -1,0 +1,22 @@
+.main {
+    background: $violetColor;;
+
+    .container {
+        display: grid;
+        align-items: center;
+        height: 337px;
+        overflow: hidden;
+
+    }
+
+    .item-list-container {
+        transform: translateY(-50%);
+        display: grid;
+        place-items: center;
+        p {
+            font-size: 4rem;
+            color: white;
+            font-weight: bold;
+        }
+    }
+}

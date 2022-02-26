@@ -1,22 +1,38 @@
 header {
-  background: rgb(209, 255, 156);
+  background: $greenColor;
   width: 100%;
   padding: 20px 0;
   display: flex;
 
   .header-content {
     display: flex;
-    justify-content: space-between;
   }
+
   .nav {
     display: flex;  
     justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 20px;
 
     .item {
       font-size: 1.6rem;
+      font-weight: 600;
       &:not(:last-child) {
         margin-right: 20px;
       }
+    }
+  }
+
+  .icon {
+    width: 24px;
+
+  }
+
+  a, button {
+    transition: color 300ms ease;
+        
+    &:hover {
+      color: $violetColor;
     }
   }
 }

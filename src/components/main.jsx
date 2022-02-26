@@ -1,9 +1,12 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+import ItemListContainer from './ItemListContainer';
+
 const Main = () => {
 
     return (
         <section className="main">
-            <p>Main</p>
+            <div className="container">
+            <ItemListContainer greetings={'Bienvenidos a nuestro store'} />
+            </div>
         </section>
     )
 }
