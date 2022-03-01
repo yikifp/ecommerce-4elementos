@@ -1,0 +1,30 @@
+.counter-wrapper {
+    width: 200px;
+    background: #fff;
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: min-content 1fr min-content;
+    padding: 5px;
+    
+    .counter-copy {
+        font-weight: bold;
+        justify-self: center;
+        align-self: center;
+        font-size: 1.6rem;
+    }
+    .counter-button {
+        display: inline-flex;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        font-size: 2rem;
+        justify-content: center;
+        background: #fafafa;
+        justify-self: center;
+    }
+
+    .add-to-cart {
+        font-size: 1.6rem;
+        grid-area: 2/1/3/4;
+    }
+}

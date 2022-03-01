@@ -1,8 +1,11 @@
+import ItemCounter from "./ItemCount";
+
 const ItemListContainer = ({greetings}) => {
-    const n = 12;
+
     return (
         <div className="item-list-container">
-            {[...Array(n)].map((e, i) => <p key={i}>{greetings}</p>)}
+            <p>{greetings}</p>
+            <ItemCounter onAdd={() => console.log('agregado al carrito')} />
         </div>
     )
 }
