@@ -20,7 +20,7 @@ const ItemCounter = ({stock = 5, onAdd}) => {
                 {counter}
             </span>
             <button className="counter-button" onClick={substractToCounter}>-</button>
-            <button className="add-to-cart" onClick={onAdd}>Agregar al carrito</button>
+            <button className="add-to-cart" onClick={onAdd} disabled={stock === 0 || counter === 0}>Agregar al carrito</button>
         </div>
     )
 }
