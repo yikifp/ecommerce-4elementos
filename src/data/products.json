@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "name": "Placa de video Nvidia MSI GeForce 10 Series GTX 1050 Ti GEFORCE GTX 1050 TI 4GT OC OC Edition 4GB",
+        "price": 399
+    },
+    {
+        "id": "2",
+        "name": "Procesador AMD Ryzen 7 5700G 100-100000263BOX de 8 núcleos y 4.6GHz de frecuencia con gráfica integrada",
+        "price": 399
+    },
+    {
+        "id": "3",
+        "name": "Disco sólido interno Gigabyte GP-GSTFS31120GNTD 120GB negro",
+        "price": 399
+    }
+]

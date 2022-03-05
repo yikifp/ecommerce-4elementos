@@ -1,23 +1,49 @@
 .main {
-    background: $violetColor;;
-
-    .container {
-        display: grid;
-        align-items: center;
-        height: 337px;
-        overflow: hidden;
-
-    }
+    
+    margin-top: 40px;
 
     .item-list-container {
-        transform: translateY(-50%);
+        position: relative;
+        margin-top: 40px;
         display: grid;
-        place-items: center;
-        p {
-            font-size: 4rem;
-            color: white;
-            font-weight: bold;
-            margin-bottom: 20px;
+        .title {
+            margin-bottom: 40px;
+        }
+        
+        [data-name="loader"] {
+            width: 40px;
+            height: 40px;
+            color: $purpleColor;
+            justify-self: center;
+        }
+    }    
+
+    .list-wrapper {
+        display: flex;
+
+        .item-wrapper {
+            width: 100%;
+            padding: 20px 40px;
+            border: 1px solid #333;
+
+            .item-link {
+                display:flex;
+                flex-direction: column;
+                width: 100%;
+                height: 100%;
+
+                &:hover {
+                    color: $purpleColor;
+                }
+            }
+
+            .price {
+                padding-top: 20px;
+                margin-top: auto;
+                margin-bottom: 0;
+                font-weight: 700;
+
+            }
         }
     }
 }
