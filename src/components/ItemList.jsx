@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
 import Item from './Item';
 import {ReactComponent as LoaderIcon} from '../assets/svg/loader.svg';
 
@@ -26,18 +25,5 @@ const ItemList = ({list}) => {
     </>
     )
 }
-
-
-ItemList.propTypes = {
-    // An array of objects taking on a particular shape
-    list: PropTypes.arrayOf(
-      PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      price: PropTypes.number.isRequired
-    }).isRequired
-    ).isRequired
-  
-  }
 
 export default ItemList;
